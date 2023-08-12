@@ -1,0 +1,23 @@
+.container{
+    height: 90vh;
+    width: 90vw;
+    margin:auto;
+}
+
+.username{
+    margin: 2rem auto;
+    height: 4rem;
+    padding: 4rem 2rem;
+    border: 2px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.password{
+    margin: 2rem auto;
+    height: 4rem;
+    padding: 4rem 2rem;
+    border: 2px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+}

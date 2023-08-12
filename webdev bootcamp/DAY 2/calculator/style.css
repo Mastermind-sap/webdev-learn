@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+.container{
+    width:50%;
+    border: 5px solid rgb(255, 2, 2);
+    background-color: black;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    border: 5px solid rgb(80, 0, 0);
+    color: black;
+    width: 5rem;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: red;
+}
+button:hover {
+    background-color: rgb(133, 0, 0);
+    border: 5px solid rgb(255, 0, 0);
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: aqua;
+    animation-name: anim1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes anim1 {   
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: orange;
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    75%{
+        background-color: orange;
+    }
+    100% {
+        background-color: aqua;
+    }
+}
+
+#result{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 5px solid rgb(255, 2, 2);
+    width: 70%;
+    align-self: center;
+    height: 20%;
+    background-color: aliceblue;
+}
+.numbers{
+    width:80%;
+    border: 5px solid rgb(255, 2, 2);
+    margin: 0.5rem auto;
+    height: 40px;
+}

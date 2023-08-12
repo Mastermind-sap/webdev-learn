@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(45deg, rgb(0, 221, 221), whitesmoke, rgb(255, 128, 149));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 2px 2px 7px black;
+}
+
+.dot--1 {
+    animation: ball 1016.949153ms ease-in-out infinite;
+}
+
+.dot--2 {
+    top: 24px;
+    animation: ball 1034.482759ms ease-in-out infinite;
+}
+
+.dot--3 {
+    top: 44px;
+    animation: ball 1052.6315789473683ms ease-in-out infinite;
+}
+
+.dot--4 {
+    top: 64px;
+    animation: ball 1071.4285714285713ms ease-in-out infinite;
+}
+
+.dot--5 {
+    top: 84px;
+    animation: ball 1090.9090909090908ms ease-in-out infinite;
+}
+
+.dot--6 {
+    top: 104px;
+    animation: ball 1111.111111111111ms ease-in-out infinite;
+}
+
+.dot--7 {
+    top: 124px;
+    animation: ball 1132.0754716981132ms ease-in-out infinite;
+}
+
+.dot--8 {
+    top: 144px;
+    animation: ball 1153.8461538461538ms ease-in-out infinite;
+}
+
+.dot--9 {
+    top: 164px;
+    animation: ball 1176.4705882352941ms ease-in-out infinite;
+}
+
+.dot--10 {
+    top: 184px;
+    animation: ball 1200ms ease-in-out infinite;
+}
+
+.dot--11 {
+    top: 204px;
+    animation: ball 1224.4897959183675ms ease-in-out infinite;
+}
+
+.dot--12 {
+    top: 224px;
+    animation: ball 1250ms ease-in-out infinite;
+}
+
+.dot--13 {
+    top: 244px;
+    animation: ball 1276.595744680851ms ease-in-out infinite;
+}
+
+.dot--14 {
+    top: 264px;
+    animation: ball 1304.3478260869565ms ease-in-out infinite;
+}
+
+.dot--15 {
+    top: 284px;
+    animation: ball 1333.3333333333333ms ease-in-out infinite;
+}
+
+.dot--16 {
+    top: 304px;
+    animation: ball 1363.6363636363635ms ease-in-out infinite;
+}
+
+.dot--17 {
+    top: 324px;
+    animation: ball 1395.3488372093025ms ease-in-out infinite;
+}
+
+.dot--18 {
+    top: 344px;
+    animation: ball 1428.5714285714287ms ease-in-out infinite;
+}
+
+.dot--19 {
+    top: 364px;
+    animation: ball 1463.4146341463415ms ease-in-out infinite;
+}
+
+.dot--20 {
+    top: 384px;
+    animation: ball 1500ms ease-in-out infinite;
+}
+
+@keyframes ball {
+
+    0%,
+    100% {
+        transform: translateX(50px);
+    }
+
+    50% {
+        transform: translateX(-50px);
+    }
+}

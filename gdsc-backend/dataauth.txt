@@ -1,0 +1,9 @@
+uname:test pass:1234
+
+pnpm prisma:generate
+
+// schema explaination
+// ?-> field may be empty(null)
+// @id -> primary key(access)
+// @default(auto()) -> automatically generates default value
+//@map("_id") ->to use mongodb from pri

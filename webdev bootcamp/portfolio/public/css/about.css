@@ -1,0 +1,48 @@
+body{
+    /* display: flex;
+    height: 100vh; */
+    background-color: aqua;
+    animation-name: anim1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes anim1 {   
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: orange;
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    75%{
+        background-color: orange;
+    }
+    100% {
+        background-color: aqua;
+    }
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+ul{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: large;
+}
+
+div{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 30%;
+    margin-top: 20%;
+}

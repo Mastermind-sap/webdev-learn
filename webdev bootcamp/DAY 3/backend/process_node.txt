@@ -1,0 +1,6 @@
+npm init -y
+npm --proxy http://172.16.199.40:8080 install express
+npm list 
+node .\index.js     
+npm --proxy http://172.16.199.40:8080 install nodemon -g
+// -g => is used to install the package globally that means it will be accessible in all directories

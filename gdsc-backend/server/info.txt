@@ -1,0 +1,20 @@
+//type module is used to use import instead of require
+server knows ip only whne client requests
+//Hostname:localhost ;IP Address:127.0.0.1
+//get,post,patch,put,delete
+//methods->path->protocol
+//path basics of restful api
+
+//npm install nodemon -g
+//To run : npm run dev
+//scripts "dev":"nodemon server.js"
+//npm i prisma @prisma/client
+
+//route parameters
+//middlewares
+//sessions,cookies
+//static folder->direct access for clients
+
+
+//ORM/ODM
+//NoSQL&SQL

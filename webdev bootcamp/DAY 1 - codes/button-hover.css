@@ -1,0 +1,24 @@
+body{
+    background: rgb(211, 211, 211);
+    height: 100vh;
+    display: flex;
+}
+
+button{
+    margin: auto;
+    background-color: rgb(185, 185, 185) !important;
+    background-color: blue;
+    padding: 2rem 4rem;
+    font-size: 40px;
+    border: 0px;
+    box-shadow: 3px 3px 7px 2px gray, -3px -3px 7px 2px white;
+}
+
+button div{
+    transition: 0.5s;
+    padding: 0.5rem 1rem ;
+}
+
+button:hover div{
+    box-shadow: inset 3px 3px 7px 2px gray, inset -3px -3px 7px 2px white ;
+}

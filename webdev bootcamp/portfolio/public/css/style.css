@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    height: 100vh;
+    background-color: aqua;
+    animation-name: anim1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.navigation li {
+  float: left;
+}
+
+ul.navigation li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navigation li a:hover:not(.active) {
+  background-color: #000;
+}
+
+ul.navigation li a.active {
+  background-color:#04AA6D;
+}
+
+@keyframes anim1 {   
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: orange;
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    75%{
+        background-color: orange;
+    }
+    100% {
+        background-color: aqua;
+    }
+}
+
+img{
+    border-radius: 50%;
+}
+
+.icons{
+    height: 50px;
+    width: 50px;
+}
+
+#links{
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 30%;
+    vertical-align: auto;
+    color: red;
+    text-align: center;
+}
+
