@@ -1,0 +1,11 @@
+/* to select specific child of a parent use :nth-child(index of child)
+align-self
+flex-basis
+flex-grow
+absoluete->relative to page
+relative->with reltion to prev position
+fixed->menu bar doesnot change while scrolling
+
+rem->for relative positioning(responsiveness) 
+@media screen ->change for diff devices
+media queries*/
